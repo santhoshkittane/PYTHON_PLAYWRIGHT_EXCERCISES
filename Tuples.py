@@ -1,0 +1,5 @@
+a =(1,2,3,4,5,6,"Hello World")
+print(a.count("Hello World"))
+print(a)
+a = (94,3,2,1)
+print(a)
