@@ -5,7 +5,7 @@ from datetime import datetime
 
 from playwright.sync_api import Page, expect
 
-@pytest.mark.sanity
+@pytest.mark.smoke
 def test_has_title(page: Page):
     # Navigate to the official Playwright homepage
     page.goto("https://playwright.dev/")
